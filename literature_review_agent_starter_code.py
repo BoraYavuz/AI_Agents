@@ -37,7 +37,7 @@ def search_and_analyze_papers(query, max_results=10):
         search = arxiv.Search(
             query=query,
             max_results=max_results,
-            sort_by=arxiv.SortCriterion.SubmittedDate
+            sort_by=arxiv.SortCriterion.Relevance
         )
         
         papers = []
