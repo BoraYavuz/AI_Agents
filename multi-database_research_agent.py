@@ -481,7 +481,7 @@ with st.expander("ℹ️ How to Use This Multi-Database Tool"):
     {chr(10)} 5. **Click Start Research** and wait for the analysis
     
     ### Available Databases:
-    {"".join([f"- **{db}**: {desc}" for db, desc in database_options.items()]).join(chr(13)} 
+    {"".join([f"- **{db}**: {desc}" for db, desc in database_options.items()]).join(chr(13))}
     
     ### Analysis Types:
     - **Literature Review**: Comprehensive overview using selected database
