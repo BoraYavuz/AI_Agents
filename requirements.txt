@@ -3,3 +3,4 @@ langchain
 openai
 arxiv
 pandas
+plotly.express
