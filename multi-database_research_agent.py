@@ -472,7 +472,7 @@ with st.expander(f"💡 Tips for {selected_db}"):
 
 # Instructions section
 with st.expander("ℹ️ How to Use This Multi-Database Tool"):
-    st.markdown(f"""{chr(13)}
+    st.markdown(f"""
     ### Getting Started:
     {chr(10)} 1. **Select your database** from the sidebar dropdown"
     {chr(10)} 2. **Add your OpenAI API Key** in the sidebar
