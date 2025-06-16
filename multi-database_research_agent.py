@@ -473,12 +473,12 @@ with st.expander(f"💡 Tips for {selected_db}"):
 # Instructions section
 with st.expander("ℹ️ How to Use This Multi-Database Tool"):
     st.markdown(f"""
-    ### Getting Started:
-    - 1. **Select your database** from the sidebar dropdown {chr(13)} 
-    - 2. **Add your OpenAI API Key** in the sidebar {chr(10)} 
-    - 3. **Enter your research topic** - tailor it to your chosen database {chr(13)} 
-    - 4. **Choose analysis type** - different approaches for different needs {chr(10)} 
-    - 5. **Click Start Research** and wait for the analysis {chr(13)} 
+    ### Getting Started: {chr(13)} 
+    {chr(10)} 1. **Select your database** from the sidebar dropdown {chr(13)} 
+    {chr(10)} 2. **Add your OpenAI API Key** in the sidebar {chr(10)} 
+    {chr(10)} 3. **Enter your research topic** - tailor it to your chosen database {chr(13)} 
+    {chr(10)} 4. **Choose analysis type** - different approaches for different needs {chr(10)} 
+    {chr(10)} 5. **Click Start Research** and wait for the analysis {chr(13)} 
     
     ### Available Databases:
     {chr(10).join([f"- **{db}**: {desc}" for db, desc in database_options.items()])}
