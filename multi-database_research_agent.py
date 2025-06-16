@@ -482,7 +482,7 @@ with st.expander("ℹ️ How to Use This Multi-Database Tool"):
     
     ### Available Databases:
     {chr(10)}
-    {chr(10).join([f"- **{db}**: {desc} chr(13)" for db, desc in database_options.items()])}
+    {chr(10).join([f"- **{db}**: {desc} {chr(13)}" for db, desc in database_options.items()])}
     
     ### Analysis Types:
     - **Literature Review**: Comprehensive overview using selected database
