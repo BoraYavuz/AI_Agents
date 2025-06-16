@@ -7,5 +7,4 @@ pandas
 plotly
 requests
 scholarly
-time
 json
