@@ -473,28 +473,28 @@ with st.expander(f"💡 Tips for {selected_db}"):
 # Instructions section
 with st.expander("ℹ️ How to Use This Multi-Database Tool"):
     st.markdown(f"""
-    ### Getting Started:
-    1. **Select your database** from the sidebar dropdown
-    2. **Add your OpenAI API Key** in the sidebar
-    3. **Enter your research topic** - tailor it to your chosen database
-    4. **Choose analysis type** - different approaches for different needs
-    5. **Click Start Research** and wait for the analysis
+### Getting Started:
+1. **Select your database** from the sidebar dropdown
+2. **Add your OpenAI API Key** in the sidebar
+3. **Enter your research topic** - tailor it to your chosen database
+4. **Choose analysis type** - different approaches for different needs
+5. **Click Start Research** and wait for the analysis
     
-    ### Available Databases:
-    {chr(10).join([f"- **{db}**: {desc}" for db, desc in database_options.items()])}
+### Available Databases:
+{chr(10).join([f"- **{db}**: {desc}" for db, desc in database_options.items()])}
     
-    ### Analysis Types:
-    - **Literature Review**: Comprehensive overview using selected database
-    - **Trend Analysis**: Publication patterns over time
-    - **Gap Analysis**: Identifies under-researched areas
-    - **Database Comparison**: Compares coverage across databases
+### Analysis Types:
+- **Literature Review**: Comprehensive overview using selected database
+- **Trend Analysis**: Publication patterns over time
+- **Gap Analysis**: Identifies under-researched areas
+- **Database Comparison**: Compares coverage across databases
     
-    ### Pro Tips:
-    - Start with ArXiv for technical/CS topics
-    - Use PubMed for medical research
-    - Try Google Scholar for broad interdisciplinary topics
-    - Use Database Comparison to see coverage differences
-    """)
+### Pro Tips:
+- Start with ArXiv for technical/CS topics
+- Use PubMed for medical research
+- Try Google Scholar for broad interdisciplinary topics
+- Use Database Comparison to see coverage differences
+""")
 
 # Footer
 st.markdown("---")
