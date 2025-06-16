@@ -1,5 +1,3 @@
-pip install langchain.agents, langchain_openai, langchain.tools, langchain_community.utilities, langchain.prompts
-
 import streamlit as st
 import pandas as pd
 from langchain.agents import create_openai_tools_agent, AgentExecutor
