@@ -1,15 +1,20 @@
 import streamlit as st
 import pandas as pd
-from langchain.agents import create_openai_tools_agent, AgentExecutor
-from langchain_openai import ChatOpenAI
-from langchain.tools import ArxivQueryRun, Tool
-from langchain_community.utilities import ArxivAPIWrapper
-from langchain.prompts import ChatPromptTemplate
-import arxiv
 import requests
 from datetime import datetime
 import plotly.express as px
-import plotly.graph_objects as go
+
+# Add error handling for imports
+try:
+    from langchain.agents import create_openai_tools_agent, AgentExecutor
+    from langchain_openai import ChatOpenAI
+    from langchain.tools import Tool
+    from langchain.prompts import ChatPromptTemplate
+    import arxiv
+except ImportError as e:
+    st.error(f"Missing package: {e}")
+    st.error("Please check your requirements.txt file")
+    st.stop()
 
 # Page config
 st.set_page_config(
@@ -18,6 +23,7 @@ st.set_page_config(
     layout="wide"
 )
 
+# Rest of your code stays the same...
 # Sidebar for configuration
 st.sidebar.title("Configuration")
 openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
