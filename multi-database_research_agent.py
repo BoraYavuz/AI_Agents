@@ -479,16 +479,16 @@ with st.expander("ℹ️ How to Use This Multi-Database Tool"):
 3. **Enter your research topic** - tailor it to your chosen database
 4. **Choose analysis type** - different approaches for different needs
 5. **Click Start Research** and wait for the analysis
-    
+
 ### Available Databases:
 {chr(10).join([f"- **{db}**: {desc}" for db, desc in database_options.items()])}
-    
+
 ### Analysis Types:
 - **Literature Review**: Comprehensive overview using selected database
 - **Trend Analysis**: Publication patterns over time
 - **Gap Analysis**: Identifies under-researched areas
 - **Database Comparison**: Compares coverage across databases
-    
+
 ### Pro Tips:
 - Start with ArXiv for technical/CS topics
 - Use PubMed for medical research
