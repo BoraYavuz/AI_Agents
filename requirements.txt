@@ -1,7 +1,11 @@
 streamlit
 langchain
-langchain_openai
+langchain-openai
 openai
 arxiv
 pandas
-plotly.express
+plotly
+requests
+scholarly
+time
+json
