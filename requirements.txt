@@ -1,7 +1,9 @@
 streamlit
 langchain
 langchain_openai
+langchain_community
 openai
 arxiv
 pandas
-plotly.express
+plotly
+scholarly
